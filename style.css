@@ -43,12 +43,12 @@ img {
     padding: 12px 0 12px 62px;
 }
 
-.two-columns {
+.two-columns-top {
     font-size: 0;
     text-align: center;
 }
 
-.two-columns .column {
+.two-columns-top .column {
     width: 100%;
     max-width: 300px;
     display: inline-block;
@@ -93,7 +93,7 @@ h4 {
 
 .three-columns {
     font-size: 0;
-    padding: 35px 0 20px;
+    
 }
 
 .three-columns .column {
@@ -110,27 +110,54 @@ h4 {
 .three-columns .content {
     font-size: 15px;
     line-height: 20px;
-    
 }
 
-.two-columns.last {
-    padding: 35px 0;
+.three-columns p {
+    text-align: left;
 }
 
-.two-columns .padding {
-    padding: 20px;
-    text-align: center;
+.two-columns-bottom {
+    font-size: 0;
+    text-align: left;
 }
 
-.two-columns .content {
+.two-columns-bottom .column {
     display: inline-block;
+    width: 100%;
+    max-width: 300px;
     vertical-align: top;
-    /* text-align: left; */
+}
+
+.two-columns-bottom .padding {
+    padding: 25px;
+}
+
+.two-columns-bottom .content {
     font-size: 15px;
     line-height: 20px;
-    padding: 0;
 }
 
-/* .two-columns .last p {
-    float: left;
-} */
+.two-columns-bottom .column-two {
+    max-width: 275px;
+}
+
+.two-columns-bottom .column-two p {
+    text-align: left;
+}
+
+.two-columns-bottom .column-two .btn {
+    margin: 0;
+}
+
+.footer-image {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social {
+    width: 55px;
+    margin-left: 33px;
+    padding: 20px;
+    
+}
