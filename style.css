@@ -35,12 +35,17 @@ img {
     text-align: center;
 }
 
-.social {
+/* .fa-brands {
     width: 38px;
-}
+    background-image: linear-gradiennt(to bottom left, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75)
+} */
 
 .social-media {
     padding: 12px 0 12px 62px;
+}
+
+.fa-square-instagram {
+    color: linear-gradient(to bottom left, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75)
 }
 
 .two-columns-top {
