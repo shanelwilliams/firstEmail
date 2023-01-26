@@ -35,17 +35,12 @@ img {
     text-align: center;
 }
 
-/* .fa-brands {
-    width: 38px;
-    background-image: linear-gradiennt(to bottom left, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75)
-} */
-
 .social-media {
     padding: 12px 0 12px 62px;
 }
 
-.fa-square-instagram {
-    color: linear-gradient(to bottom left, #4f5bd5, #962fbf, #d62976, #fa7e1e, #feda75)
+.fa-brands {
+    padding: 5px;
 }
 
 .two-columns-top {
@@ -160,9 +155,8 @@ h4 {
     margin-right: auto;
 }
 
-.footer-social {
+.footer .fa-brands {
     width: 55px;
     margin-left: 33px;
     padding: 20px;
-    
 }
